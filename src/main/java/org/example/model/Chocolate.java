@@ -3,8 +3,9 @@ package org.example.model;
 public class Chocolate extends ProductForSale{
     private String chocolateType;
 
-    public Chocolate(String type, double price, String description) {
+    public Chocolate(String type, double price, String description, String chocolateType) {
         super(type, price, description);
+        this.chocolateType = chocolateType;
     }
 
     @Override
